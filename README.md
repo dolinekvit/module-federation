@@ -2,6 +2,8 @@
 
 Micro frontends with React, TypeScript, Vite and Module Federation. A shell application loads two separately built apps at runtime, based on the URL.
 
+Live preview: [https://mfe.dolinek.dev/](https://mfe.dolinek.dev/)
+
 ## Architecture
 
 ```mermaid
