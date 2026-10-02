@@ -1,0 +1,5 @@
+node_modules/
+dist/
+deploy/
+# docker-compose ignore because it contains some of my own domain settings
+docker-compose.yml

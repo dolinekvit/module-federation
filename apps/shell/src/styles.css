@@ -1,0 +1,95 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1c1c1c;
+  background: #f6f6f6;
+}
+
+body {
+  margin: 0;
+}
+
+.shell-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+.shell-header nav {
+  display: flex;
+  gap: 12px;
+  flex: 1;
+}
+
+.shell-header a {
+  color: #444444;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.shell-header a.active {
+  background: #1c1c1c;
+  color: #ffffff;
+}
+
+.badge {
+  min-width: 24px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  background: #1c1c1c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+}
+
+.shell-content {
+  padding: 24px;
+}
+
+.remote-error {
+  padding: 16px;
+  border: 1px solid #c0392b;
+  border-radius: 6px;
+  background: #fdecea;
+}
+
+button {
+  font: inherit;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.toasts {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 360px;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: #1c1c1c;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.toast span {
+  flex: 1;
+}
+
+.toast button {
+  padding: 0 6px;
+  border: none;
+  background: transparent;
+  color: inherit;
+}
